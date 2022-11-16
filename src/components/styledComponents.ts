@@ -57,7 +57,7 @@ export const NavbarCont = styled(Container)`
   height: ${navHeight};
 `;
 
-export const HeroCont = styled(Container)`
+export const HomeCont = styled(Container)`
   padding-top: ${navHeight};
   @media (max-width: 1250px) {
     padding-top: calc(${navHeight} + 1rem) !important;

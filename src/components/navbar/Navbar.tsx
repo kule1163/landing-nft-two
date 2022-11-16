@@ -7,7 +7,7 @@ import useScrollPosition from "../../hooks/useScrollPosition";
 import { useGlobalStore } from "../../store/useGlobalStore";
 
 const Navbar = () => {
-  const { menuToggle, setMenuToggle } = useGlobalStore();
+  const { setMenuToggle } = useGlobalStore();
   const [toggleNav, setToggleNav] = useState<boolean>(true);
   let scrollPosition = useScrollPosition();
   const [lastScrollPosition, setLastScrollPosition] = useState(scrollPosition);
