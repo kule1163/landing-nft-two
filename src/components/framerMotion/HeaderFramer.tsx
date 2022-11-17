@@ -6,6 +6,7 @@ const HeaderFramer = ({ children }: { children: JSX.Element }) => {
       <motion.div
         initial={{ y: "100%" }}
         whileInView={{ y: "0%", transition: { duration: 0.5 } }}
+        viewport={{ once: true }}
       >
         {children}
       </motion.div>

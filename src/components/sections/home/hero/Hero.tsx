@@ -24,7 +24,7 @@ const Hero = () => {
     <motion.div
       variants={container}
       initial="hidden"
-      whileInView="show"
+      animate="show"
       className="flex flex-col flex-shrink-0 all-child:hlg:text-center gap-8 hlg:items-center hlg:justify-center "
     >
       <motion.p variants={item} className="font-bold leading-snug text-step0">
